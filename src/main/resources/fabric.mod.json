@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "bundleunduplicator",
+	"version": "${version}",
+	"name": "Bundle Unduplicator",
+	"description": "Prevents item duplication using bundles.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Bundle-Unduplicator#readme",
+		"issues": "https://github.com/haykam821/Bundle-Unduplicator/issues"
+	},
+	"mixins": [
+		"bundleunduplicator.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/bundleunduplicator/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
